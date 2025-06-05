@@ -1,0 +1,42 @@
+body {
+  transition: background-color 0.5s;
+  text-align: center;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#emoji-container {
+  font-size: 40px;
+  margin-top: 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.emoji {
+  cursor: pointer;
+  margin: 0 10px;
+  user-select: none;
+  transition: all transform 0.3s;
+}
+
+#mood-text {
+  font-size: 24px;
+  color: #333;
+  margin-top: 20px;
+}
+
+img {
+  max-width: 80%;
+  height: 250px;
+  margin-top: 20px;
+  display: none;
+}
+
+footer {
+  margin-top: 50px;
+}
